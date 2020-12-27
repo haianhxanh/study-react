@@ -1,0 +1,21 @@
+.change {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.change-button {
+  border: 1px solid lightgray;
+  background-color: transparent;
+  padding: 10px;
+  border-radius: 4px;   
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:focus {
+    outline:0;
+  }
+}
