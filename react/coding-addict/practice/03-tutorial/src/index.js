@@ -7,6 +7,8 @@ import BookListPropsDestructuring from "./BookListPropsDestructuring.js";
 import BookListPropsChildren from "./BookListPropsChildren.js";
 import BookListSimpleList from "./BookListSimpleList.js";
 import BookListProperList from "./BookListProperList.js";
+import BookListEvents from "./BookListEvents.js";
+import BookListImportExport from "./BookListImportExport.js";
 import "./index.css";
 
 function Greeting() {
@@ -37,6 +39,12 @@ function Greeting() {
 
       <hr />
       <BookListProperList />
+
+      <hr />
+      <BookListEvents />
+
+      <hr />
+      <BookListImportExport />
     </>
   );
 }
