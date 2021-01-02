@@ -9,7 +9,7 @@ const ErrorExample = () => {
   return (
     <>
       <hr />
-      <h2>1) useState error example</h2>
+      <h2>1.1) useState error example</h2>
       <p>
         This example showcases when useState() is not used, hence when we click
         on the button the value of the title will change but only in console and

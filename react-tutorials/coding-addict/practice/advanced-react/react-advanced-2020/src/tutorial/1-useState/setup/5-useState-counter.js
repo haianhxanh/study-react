@@ -8,7 +8,7 @@ const UseStateCounter = () => {
   return (
     <>
       <hr />
-      <h2>5) useState counter example</h2>
+      <h2>1.5) useState counter example</h2>
       <section style={{ margin: "2rem 0" }}>
         <h3>regular counter</h3>
         <h1>{value}</h1>

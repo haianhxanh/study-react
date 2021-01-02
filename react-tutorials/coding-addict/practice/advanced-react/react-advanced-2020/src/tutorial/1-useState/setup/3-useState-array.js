@@ -14,7 +14,7 @@ const UseStateArray = () => {
   return (
     <>
       <hr />
-      <h2>3) useState array example</h2>
+      <h2>1.3) useState array example</h2>
       <p></p>
       {people.map((person) => {
         const { id, name } = person;

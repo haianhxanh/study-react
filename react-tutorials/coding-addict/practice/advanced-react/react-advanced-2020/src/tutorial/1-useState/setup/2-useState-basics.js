@@ -23,7 +23,7 @@ const UseStateBasics = () => {
   return (
     <>
       <hr />
-      <h2>2) useState basic example</h2>
+      <h2>1.2) useState basic example</h2>
       <p>This example showcases the simple functionality of useState()</p>
       <h3>{text}</h3>
       <button className="btn" onClick={handleClick}>

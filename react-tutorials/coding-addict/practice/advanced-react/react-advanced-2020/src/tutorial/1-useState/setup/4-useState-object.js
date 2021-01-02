@@ -23,7 +23,7 @@ const UseStateObject = () => {
   return (
     <>
       <hr />
-      <h2>4) useState object example</h2>
+      <h2>1.4) useState object example</h2>
       {/* 1st method: dealing with object */}
       {/* <h3>{person.name}</h3>
       <h3>{person.age}</h3>

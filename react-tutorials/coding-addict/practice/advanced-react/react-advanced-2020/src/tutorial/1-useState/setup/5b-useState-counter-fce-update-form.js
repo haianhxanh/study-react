@@ -21,7 +21,8 @@ const UseStateCounter = () => {
   return (
     <>
       <h2>
-        6) useState counter example - Complex counter - Functional update form
+        1.5b) useState counter example - Complex counter - Functional update
+        form
       </h2>
       <section style={{ margin: "2rem 0" }}>
         <h3>complex counter</h3>
