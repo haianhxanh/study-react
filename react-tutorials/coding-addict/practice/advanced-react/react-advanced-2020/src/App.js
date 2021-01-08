@@ -9,12 +9,13 @@ import UseStateCounterFceUpdateFormSetup from "./tutorial/1-useState/setup/5b-us
 import UseEffectBasicsSetup from "./tutorial/2-useEffect/setup/1-useEffect-basics";
 import UseEffectCleanupSetup from "./tutorial/2-useEffect/setup/2-useEffect-cleanup";
 import UseEffectFetchSetup from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
+import ConditionalRenderingSetup from "./tutorial/3-conditional-rendering/setup/1-multiple-returns";
 
 function App() {
   return (
     <div className="container">
       <h2>Advanced Tutorial</h2>
-      <ErrorExampleSetup />
+      {/* <ErrorExampleSetup />
       <UseStateBasicsSetup />
       <UseStateArraySetup />
       <UseStateArrayFceSetup />
@@ -23,7 +24,8 @@ function App() {
       <UseStateCounterFceUpdateFormSetup />
       <UseEffectBasicsSetup />
       <UseEffectCleanupSetup />
-      <UseEffectFetchSetup />
+      <UseEffectFetchSetup /> */}
+      <ConditionalRenderingSetup />
     </div>
   );
 }
