@@ -6,8 +6,9 @@ const UseEffectFetchData = () => {
   const [users, setUsers] = useState([]);
   const getUsers = async () => {
     const response = await fetch(url);
-    const users = await response.json();
+    const data = await response.json();
     // !!! be careful, this will cause infinite loop because we are updating useState() and it re-renders after every update, at the same time we invoke getUsers() that runs setUsers() inside, hence it is an infinite loop - to prevent this, we always have to add "second argument to useEffect() below"
+    const users = data.slice(0, 4);
     setUsers(users);
     // console.log(users);
   };
