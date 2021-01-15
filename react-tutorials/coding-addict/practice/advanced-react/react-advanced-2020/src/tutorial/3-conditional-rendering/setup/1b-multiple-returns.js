@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
-const url = "https://api.github.com/users/QuincyLarsons";
-const MultipleReturns = () => {
+const url = "https://api.github.com/users/QuincyLarson";
+
+const MultipleReturns2 = () => {
   // if we set loading to "true" we will see Loading... heading instead of the one below
   const [isLoading, setIsLoading] = useState(false);
   // in case of boolean we name it as isSomething
@@ -48,8 +49,8 @@ const MultipleReturns = () => {
         <h2>
           3.1a) Conditional rendering - multiple returns: Example with error
         </h2>
-        <p>Here the URL is not correct (redundant s at the end)</p>
         <h3>Error...</h3>
+        <p>Here the URL is not correct (redundant s at the end)</p>
       </>
     );
   }
@@ -58,10 +59,13 @@ const MultipleReturns = () => {
   return (
     <>
       <hr />
-      <h2>3.1) Conditional rendering - multiple returns</h2>
+      <h2>
+        3.1) Conditional rendering - multiple returns: Example with correct URL
+      </h2>
+      <p>The URL is correct thus we see the data</p>
       <h3>{user}</h3>
     </>
   );
 };
 
-export default MultipleReturns;
+export default MultipleReturns2;

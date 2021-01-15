@@ -10,6 +10,7 @@ import UseEffectBasicsSetup from "./tutorial/2-useEffect/setup/1-useEffect-basic
 import UseEffectCleanupSetup from "./tutorial/2-useEffect/setup/2-useEffect-cleanup";
 import UseEffectFetchSetup from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
 import ConditionalRenderingSetup from "./tutorial/3-conditional-rendering/setup/1-multiple-returns";
+import ConditionalRendering2Setup from "./tutorial/3-conditional-rendering/setup/1b-multiple-returns";
 
 function App() {
   return (
@@ -26,6 +27,7 @@ function App() {
       <UseEffectCleanupSetup />
       <UseEffectFetchSetup /> */}
       <ConditionalRenderingSetup />
+      <ConditionalRendering2Setup />
     </div>
   );
 }
