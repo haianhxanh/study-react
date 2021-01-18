@@ -11,6 +11,7 @@ import UseEffectCleanupSetup from "./tutorial/2-useEffect/setup/2-useEffect-clea
 import UseEffectFetchSetup from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
 import ConditionalRenderingSetup from "./tutorial/3-conditional-rendering/setup/1-multiple-returns";
 import ConditionalRendering2Setup from "./tutorial/3-conditional-rendering/setup/1b-multiple-returns";
+import ShortCircuitSetup from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       <UseEffectFetchSetup /> */}
       <ConditionalRenderingSetup />
       <ConditionalRendering2Setup />
+      <ShortCircuitSetup />
     </div>
   );
 }

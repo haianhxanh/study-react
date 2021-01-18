@@ -76,7 +76,7 @@ body {
   font-size: 0.875rem;
 }
 hr {
-  margin: 1.5rem 0;
+  margin: 0.5rem 0;
   border-color: pink;
 }
 ul {
@@ -101,6 +101,7 @@ h1 {
 h2 {
   font-size: 1.5rem;
   color: green;
+  margin: 1.75rem 0;
 }
 h3 {
   font-size: 1.25rem;
@@ -166,7 +167,7 @@ p {
   text-transform: capitalize;
   font-size: 1rem;
   letter-spacing: var(--spacing);
-  margin: 1.5rem 0.5rem;
+  margin: 1.1rem 0.5rem;
   cursor: pointer;
   transition: var(--transition);
 }
