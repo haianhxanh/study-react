@@ -13,6 +13,7 @@ import ConditionalRenderingSetup from "./tutorial/3-conditional-rendering/setup/
 import ConditionalRendering2Setup from "./tutorial/3-conditional-rendering/setup/1b-multiple-returns";
 import ShortCircuitSetup from "./tutorial/3-conditional-rendering/setup/2-short-circuit";
 import ShowHideSetup from "./tutorial/3-conditional-rendering/setup/3-show-hide";
+import ControlledInputSetup from "./tutorial/4-forms/setup/1-controlled-inputs";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
       <ConditionalRendering2Setup />
       <ShortCircuitSetup />
       <ShowHideSetup /> */}
+      <ControlledInputSetup />
     </div>
   );
 }
