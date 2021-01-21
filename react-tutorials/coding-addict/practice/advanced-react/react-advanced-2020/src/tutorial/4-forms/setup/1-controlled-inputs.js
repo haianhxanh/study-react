@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ControlledInputsAddingItems from "./1b-controlled-inputs-adding-items";
 // JS
 // const input = document.getElementById('myText');
 // const inputValue = input.value
@@ -46,6 +47,8 @@ const ControlledInputs = () => {
           <button type="submit">add person</button>
         </form>
       </article>
+
+      <ControlledInputsAddingItems />
     </>
   );
 };
