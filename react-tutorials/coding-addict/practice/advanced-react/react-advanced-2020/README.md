@@ -1,3 +1,7 @@
+To start this project
+
+- run "npm start"
+
 ## Corresponding Projects
 
 #### useState

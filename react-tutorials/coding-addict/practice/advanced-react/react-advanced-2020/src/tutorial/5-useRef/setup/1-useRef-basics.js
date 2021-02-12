@@ -15,16 +15,18 @@ const UseRefBasics = () => {
   };
   // notice that refContainer is an object with key "current" and value "null" - set by default above
   console.log(refContainer);
+
   useEffect(() => {
     console.log(refContainer.current);
     refContainer.current.focus();
 
     // since useRef won't trigger re-render, we don't need to add dependency []
   });
+
   return (
     <>
       <hr />
-      <h2>useRef - for uncontrolled inputs</h2>
+      <h2>5) useRef - for uncontrolled inputs</h2>
       <form className="form" onSubmit={handleSubmit}>
         <div>
           {/* 2. we references refContainer to "ref" attribute */}
