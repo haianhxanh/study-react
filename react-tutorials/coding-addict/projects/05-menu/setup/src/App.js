@@ -6,7 +6,7 @@ import items from "./data";
 // set up function where I only get back unique items from category property of the list of items
 // const allCategories = items.map((item) => item.category);
 
-// since from allCategories we get back all categories, including repetitive values (ie. 2x breakfast, 2x shakes etc.), we just want to display the first one if them, we use new Set()
+// since from allCategories we get back all categories, including repetitive values (ie. 2x breakfast, 2x shakes etc.), we just want to display the first one if them, we use new Set() that returns only unique
 // const allCategories = new Set(items.map((item) => item.category));
 
 // however we are missing an item that refers to all categories, which is part of list of items, we can simply add it into the array and spread our original array
