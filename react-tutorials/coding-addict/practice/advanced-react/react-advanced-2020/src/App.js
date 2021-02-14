@@ -19,6 +19,7 @@ import UseRefSetup from "./tutorial/5-useRef/setup/1-useRef-basics";
 import UseReducerSetup from "./tutorial/6-useReducer/setup-withoutReducer/index";
 import UseReducer2Setup from "./tutorial/6-useReducer/setup-withReducer/index";
 import PropDrillingSetup from "./tutorial/7-prop-drilling/setup/1-prop-drilling";
+import UseContextSetup from "./tutorial/8-useContext/setup/1-context-api";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
       <UseReducerSetup />
       <UseReducer2Setup />
       <PropDrillingSetup />
+      <UseContextSetup />
     </div>
   );
 }
