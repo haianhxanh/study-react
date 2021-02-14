@@ -19,7 +19,7 @@ function App() {
   return (
     <section className="section-center">
       <h3>tired of boring lorem ipsum?</h3>
-      <h4>You can generate a maximum of {data.length + 1} paragraphs</h4>
+      <h4>You can generate a maximum of {data.length} paragraphs</h4>
       <form className="lorem-form" onSubmit={handleSubmit}>
         <label htmlFor="amount">paragraphs:</label>
         <input
