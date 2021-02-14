@@ -18,6 +18,7 @@ import MultipleInputSetup from "./tutorial/4-forms/setup/2-multiple-inputs";
 import UseRefSetup from "./tutorial/5-useRef/setup/1-useRef-basics";
 import UseReducerSetup from "./tutorial/6-useReducer/setup-withoutReducer/index";
 import UseReducer2Setup from "./tutorial/6-useReducer/setup-withReducer/index";
+import PropDrillingSetup from "./tutorial/7-prop-drilling/setup/1-prop-drilling";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
       <UseRefSetup />
       <UseReducerSetup />
       <UseReducer2Setup />
+      <PropDrillingSetup />
     </div>
   );
 }
