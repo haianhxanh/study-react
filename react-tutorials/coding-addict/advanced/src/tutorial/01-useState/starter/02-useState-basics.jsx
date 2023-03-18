@@ -7,6 +7,7 @@ const UseStateBasics = () => {
   };
   return (
     <div>
+      <h2>1. useState basics</h2>
       <div>{count}</div>
       <button type="button" className="btn" onClick={handleClick}>
         click
