@@ -4,7 +4,7 @@ const UseEffectBasics = () => {
   const [value, setValue] = useState(0);
 
   useEffect(() => {
-    console.log("hello");
+    // console.log("hello");
   }, []); // empty array dependency will make sure useEffect runs only once, not every render
 
   return (
