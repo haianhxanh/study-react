@@ -11,6 +11,7 @@ import MultipleReturnsFetchData from "./tutorial/03-conditional-rendering/starte
 import ShortCircuitOverview from "./tutorial/03-conditional-rendering/starter/04-short-circuit-overview";
 import ShortCircuitExamples from "./tutorial/03-conditional-rendering/starter/05-short-circuit-examples";
 import ToggleChallenge from "./tutorial/03-conditional-rendering/starter/06-toggle-challenge";
+import CleanupFunction from "./tutorial/02-useEffect/starter/05-cleanup-function";
 
 function App() {
   return (
@@ -24,10 +25,11 @@ function App() {
       <MultipleEffects />
       <FetchData />
       <MultipleReturns /> 
-      <MultipleReturnsFetchData /> */}
+      <MultipleReturnsFetchData /> 
       <ShortCircuitOverview />
       <ShortCircuitExamples />
-      <ToggleChallenge />
+      <ToggleChallenge />*/}
+      <CleanupFunction />
     </div>
   );
 }
