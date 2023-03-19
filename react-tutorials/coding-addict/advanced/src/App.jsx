@@ -8,6 +8,8 @@ import MultipleEffects from "./tutorial/02-useEffect/starter/03-multiple-effects
 import FetchData from "./tutorial/02-useEffect/starter/04-fetch-data";
 import MultipleReturns from "./tutorial/03-conditional-rendering/starter/01-multiple-returns-basics";
 import MultipleReturnsFetchData from "./tutorial/03-conditional-rendering/starter/02-multiple-returns-fetch-data";
+import ShortCircuitOverview from "./tutorial/03-conditional-rendering/starter/04-short-circuit-overview";
+import ShortCircuitExamples from "./tutorial/03-conditional-rendering/starter/05-short-circuit-examples";
 
 function App() {
   return (
@@ -20,8 +22,10 @@ function App() {
       <UseEffectBasics />
       <MultipleEffects />
       <FetchData />
-      <MultipleReturns /> */}
-      <MultipleReturnsFetchData />
+      <MultipleReturns /> 
+      <MultipleReturnsFetchData /> */}
+      <ShortCircuitOverview />
+      <ShortCircuitExamples />
     </div>
   );
 }
