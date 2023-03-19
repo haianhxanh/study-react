@@ -12,6 +12,7 @@ import ShortCircuitOverview from "./tutorial/03-conditional-rendering/starter/04
 import ShortCircuitExamples from "./tutorial/03-conditional-rendering/starter/05-short-circuit-examples";
 import ToggleChallenge from "./tutorial/03-conditional-rendering/starter/06-toggle-challenge";
 import CleanupFunction from "./tutorial/02-useEffect/starter/05-cleanup-function";
+import List from "./tutorial/05-leverage-javascript/starter/List";
 
 function App() {
   return (
@@ -28,8 +29,9 @@ function App() {
       <MultipleReturnsFetchData /> 
       <ShortCircuitOverview />
       <ShortCircuitExamples />
-      <ToggleChallenge />*/}
-      <CleanupFunction />
+      <ToggleChallenge />
+      <CleanupFunction />*/}
+      <List />
     </div>
   );
 }
