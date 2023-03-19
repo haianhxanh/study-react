@@ -1,9 +1,11 @@
 import useFetchPerson from "./useFetchPerson";
+import useFetch from "./useFetch";
 
 const url = "https://api.github.com/users/QuincyLarson";
 
 const FetchData = () => {
-  const { isLoading, isError, user } = useFetchPerson(url);
+  // const { isLoading, isError, user } = useFetchPerson(url); // specific fetch
+  const { isLoading, isError, data: user } = useFetch(url); // generic fetch
 
   if (isLoading) {
     return <h2>Loading...</h2>;
