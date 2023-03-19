@@ -13,6 +13,7 @@ import ShortCircuitExamples from "./tutorial/03-conditional-rendering/starter/05
 import ToggleChallenge from "./tutorial/03-conditional-rendering/starter/06-toggle-challenge";
 import CleanupFunction from "./tutorial/02-useEffect/starter/05-cleanup-function";
 import List from "./tutorial/05-leverage-javascript/starter/List";
+import ControlledInputs from "./tutorial/06-forms/starter/01-controlled-inputs";
 
 function App() {
   return (
@@ -30,8 +31,9 @@ function App() {
       <ShortCircuitOverview />
       <ShortCircuitExamples />
       <ToggleChallenge />
-      <CleanupFunction />*/}
-      <List />
+      <CleanupFunction />
+      <List /> */}
+      <ControlledInputs />
     </div>
   );
 }
