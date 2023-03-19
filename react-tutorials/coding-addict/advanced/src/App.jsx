@@ -14,6 +14,10 @@ import ToggleChallenge from "./tutorial/03-conditional-rendering/starter/06-togg
 import CleanupFunction from "./tutorial/02-useEffect/starter/05-cleanup-function";
 import List from "./tutorial/05-leverage-javascript/starter/List";
 import ControlledInputs from "./tutorial/06-forms/starter/01-controlled-inputs";
+import UserChallenge from "./tutorial/06-forms/starter/02-user-challenge";
+import MultipleInputs from "./tutorial/06-forms/starter/03-multiple-inputs";
+import OtherInputs from "./tutorial/06-forms/starter/04-other-inputs";
+import UncontrolledInputs from "./tutorial/06-forms/starter/05-form-data";
 
 function App() {
   return (
@@ -32,8 +36,12 @@ function App() {
       <ShortCircuitExamples />
       <ToggleChallenge />
       <CleanupFunction />
-      <List /> */}
-      <ControlledInputs />
+      <List /> 
+      <ControlledInputs /> 
+      <UserChallenge />*/}
+      <MultipleInputs />
+      <OtherInputs />
+      <UncontrolledInputs />
     </div>
   );
 }
