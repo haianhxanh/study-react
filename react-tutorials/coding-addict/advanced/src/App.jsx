@@ -21,6 +21,7 @@ import UncontrolledInputs from "./tutorial/06-forms/starter/05-form-data";
 import UseRefBasics from "./tutorial/07-useRef/starter/01-useRef-basics";
 import ToggleExample from "./tutorial/08-custom-hooks/starter/01-toggle";
 import CustomHooksFetchData from "./tutorial/08-custom-hooks/starter/02-fetch-data";
+import ContextAPI from "./tutorial/09-context-api/starter/Navbar";
 
 function App() {
   return (
@@ -46,8 +47,9 @@ function App() {
       <OtherInputs />
       <UncontrolledInputs /> 
       <UseRefBasics /> 
-      <ToggleExample />*/}
-      <CustomHooksFetchData />
+      <ToggleExample />
+      <CustomHooksFetchData /> */}
+      <ContextAPI />
     </div>
   );
 }
