@@ -5,11 +5,11 @@ import App from "./App";
 import AppContext from "./tutorial/09b-global-context/context";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-// root.render(<App />);
+root.render(<App />);
 
 // using Global Context
-root.render(
-  <AppContext>
-    <App />
-  </AppContext>
-);
+// root.render(
+//   <AppContext>
+//     <App />
+//   </AppContext>
+// );

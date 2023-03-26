@@ -25,10 +25,11 @@ import ContextAPI from "./tutorial/09-context-api/starter/Navbar";
 import GlobalContext, {
   useGlobalContext,
 } from "./tutorial/09b-global-context/context";
+import ReducerBasics from "./tutorial/10-useReducer/starter/01-useReducer";
 
 function App() {
-  const { name } = useGlobalContext();
-  console.log(name); // check if data is accessible everywhere
+  // const { name } = useGlobalContext();
+  // console.log(name); // check if data is accessible everywhere
   return (
     <div className="container">
       {/* <UseStateStarter />
@@ -55,8 +56,9 @@ function App() {
       <ToggleExample />
       <CustomHooksFetchData /> 
       <ContextAPI />
-      */}
       <GlobalContext />
+      */}
+      <ReducerBasics />
     </div>
   );
 }
