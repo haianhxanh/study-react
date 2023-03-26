@@ -22,8 +22,13 @@ import UseRefBasics from "./tutorial/07-useRef/starter/01-useRef-basics";
 import ToggleExample from "./tutorial/08-custom-hooks/starter/01-toggle";
 import CustomHooksFetchData from "./tutorial/08-custom-hooks/starter/02-fetch-data";
 import ContextAPI from "./tutorial/09-context-api/starter/Navbar";
+import GlobalContext, {
+  useGlobalContext,
+} from "./tutorial/09b-global-context/context";
 
 function App() {
+  const { name } = useGlobalContext();
+  console.log(name); // check if data is accessible everywhere
   return (
     <div className="container">
       {/* <UseStateStarter />
@@ -48,8 +53,10 @@ function App() {
       <UncontrolledInputs /> 
       <UseRefBasics /> 
       <ToggleExample />
-      <CustomHooksFetchData /> */}
+      <CustomHooksFetchData /> 
       <ContextAPI />
+      */}
+      <GlobalContext />
     </div>
   );
 }
