@@ -26,6 +26,9 @@ import GlobalContext, {
   useGlobalContext,
 } from "./tutorial/09b-global-context/context";
 import ReducerBasics from "./tutorial/10-useReducer/starter/01-useReducer";
+import LowerState from "./tutorial/11-performance/starter/01-lower-state/index";
+import ReactMemo from "./tutorial/11-performance/starter/03-hooks/index";
+import UseTransition from "./tutorial/11-performance/starter/04-react-18/index";
 
 function App() {
   // const { name } = useGlobalContext();
@@ -57,8 +60,11 @@ function App() {
       <CustomHooksFetchData /> 
       <ContextAPI />
       <GlobalContext />
-      */}
       <ReducerBasics />
+      <LowerState />
+      <ReactMemo />
+            */}
+      <UseTransition />
     </div>
   );
 }
